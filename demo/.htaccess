@@ -1,0 +1,21 @@
+# Options -Indexes
+# RewriteEngine On
+
+# # Définir le répertoire de base
+# RewriteBase /demo/
+
+# # Rediriger les assets statiques vers le bon dossier
+# RewriteRule ^css/(.*)$ public/css/$1 [L]
+# RewriteRule ^js/(.*)$ public/js/$1 [L]
+
+# # Rediriger toutes les autres requêtes vers index.php
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# # Protéger les fichiers sensibles
+# <FilesMatch "^(config\.php|database\.php)$">
+#     Order Allow,Deny
+#     Deny from all
+# </FilesMatch>
+

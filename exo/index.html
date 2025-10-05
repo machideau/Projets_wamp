@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Connexion et inscription </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+   
+</head>
+<body class="bg-light">
+    <div class="container ">
+        <div class="row mt-5">
+            <div class="col-lg-4 bg-white m-auto rounded-top">
+                <h2 class="text-center"> Inscription</h2>
+                <h3 class="text-center">Etape 1</h3> 
+                <p class="text-center text-muted lead"> veillez saisir vos informations personnelles</p>
+
+                <form action="inscri_2.php" method="post">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="input-group  mb-3">
+                                    <input type="text" name="nom" class="form-control" placeholder="Nom ">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-group  mb-3">
+                                    <input type="text" name="prenom" class="form-control" placeholder="Prénom">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="input-group  mb-3">
+                                    <select name="sexe"  id="sexe" class="form-control" placeholder="Sexe">
+                                        <option value="Masculin">Masculin</option>
+                                        <option value="Femini">Femini</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>                                
+                                <div class="input-group  mb-3">
+                                    <select name="classe"  id="classe" class="form-control" placeholder="Classe">
+                                        <option value="terminal">terminal</option>
+                                        <option value="prmiere">prmiere</option>
+                                        <option value="seconde">seconde</option>
+                                        <option value="troisieme">troisieme</option>
+                                        <option value="quatrieme">quatrieme</option>
+                                        <option value="cinquième">cinquième</option>
+                                        <option value="seisnon">sexième</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="input-group  mb-3">
+                                    <input type="date" name="date" class="form-control" placeholder="date de naissansse jj/mm/aaa">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="input-group  mb-3">
+                                    <input type="tel" name="tel" class="form-control" placeholder="telephone">
+                                </div>            
+                            </td>
+                        </tr>
+
+                    </table>
+
+                   
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success">Suivant</button>
+                        <p class="text-center text-muted mt-3">
+                            En cliquant sur S’inscrire, vous acceptez nos <a href="#">  Conditions générales</a>, notre <a href=""> Politique de confidentialité </a> et notre <a href="#">  Politique d’utilisation</a> des cookies. 
+                        </p>
+                        <p class="text-center">
+                             Avez vous déjà un compte ?<a href="connexion.php"> Connexion </a>
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html> 
+<script src='js/bootstrap.js'></script>

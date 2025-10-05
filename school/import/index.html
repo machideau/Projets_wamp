@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importer des élèves</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Importer la liste des élèves</h1>
+        <form id="uploadForm" method="post">
+            <input type="file" id="csvFile" accept=".csv" required>
+            <button type="submit">Téléverser et Insérer</button>
+        </form>
+        <div id="progressContainer" class="d-none">
+            <div class="progress">
+                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

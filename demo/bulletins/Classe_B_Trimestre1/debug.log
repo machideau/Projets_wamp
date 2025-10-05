@@ -1,0 +1,226 @@
+Début de génération - 2025-05-22 16:46:14
+Dossier classe: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1
+Dossier temporaire: C:\WINDOWS\TEMP/bulletins_682f54d60c2b5
+Classe: Classe B, Trimestre: 1
+Nombre d'élèves: 19
+Version PHP: 7.2.10
+Extensions chargées: Core, bcmath, calendar, ctype, date, filter, hash, iconv, json, SPL, pcre, readline, Reflection, session, standard, mysqlnd, tokenizer, zip, zlib, libxml, dom, PDO, bz2, SimpleXML, xml, wddx, xmlreader, xmlwriter, apache2handler, openssl, curl, com_dotnet, fileinfo, gd, gettext, gmp, intl, imap, ldap, mbstring, exif, mysqli, Phar, pdo_mysql, pdo_sqlite, soap, sockets, sqlite3, xmlrpc, xsl, Zend OPcache, xdebug
+Classe FPDF existe: Oui
+
+--- ANALYSE DE LA STRUCTURE DES DONNÉES ---
+Structure de la table notes:
+  - id: int(11) (KEY: PRI)
+  - eleve_id: int(11) (KEY: MUL)
+  - matiere_id: int(11) (KEY: MUL)
+  - note_classe: decimal(4,2)
+  - note_devoir: decimal(4,2)
+  - note_composition: decimal(4,2)
+  - trimestre: int(11)
+  - date_ajout: timestamp
+Nombre total d'enregistrements dans la table notes: 93
+Échantillon des données de notes:
+  - ID: 1, Élève ID: 22, Matière ID: 1, Trimestre: 1
+  - ID: 2, Élève ID: 19, Matière ID: 1, Trimestre: 3
+  - ID: 3, Élève ID: 15, Matière ID: 1, Trimestre: 1
+
+--- VÉRIFICATION DES CORRESPONDANCES ÉLÈVES-NOTES ---
+Élèves IDs trouvés dans la table notes: 4, 7, 9, 15, 19, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54
+Élèves IDs dans la classe actuelle: 50, 32, 8, 17, 53, 35, 26, 29, 10, 2, 44, 5, 12, 16, 20, 23, 41, 47, 38
+Élèves IDs communs: 26, 29, 32, 35, 38, 44, 47, 50, 53
+Vérification si les emails sont utilisés comme ID dans la table notes:
+
+--- DÉBUT DE LA GÉNÉRATION DES BULLETINS ---
+Élèves IDs trouvés dans la table notes pour ce trimestre: 9, 15, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54
+
+Traitement de l'élève: Clark David (ID: 50, Email: david.clark@email.com)
+  - Essai avec l'ID de l'élève (50)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 14.00, Devoir: 13.00, Composition: 12.00
+    - Note 2: Matière: Science2, Classe: 14.00, Devoir: 13.00, Composition: 12.00
+PDF généré pour Clark David
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Clark_David.pdf (1935 octets)
+
+Traitement de l'élève: Davis Lucas (ID: 32, Email: lucas.davis@email.com)
+  - Essai avec l'ID de l'élève (32)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 14.00, Devoir: 15.00, Composition: 13.00
+    - Note 2: Matière: Science2, Classe: 14.00, Devoir: 15.00, Composition: 13.00
+PDF généré pour Davis Lucas
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Davis_Lucas.pdf (1935 octets)
+
+Traitement de l'élève: Fournier Lucas (ID: 8, Email: lucas.fournier@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Fournier Lucas
+PDF généré pour Fournier Lucas
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Fournier_Lucas.pdf (1792 octets)
+
+Traitement de l'élève: Gauthier Julie (ID: 17, Email: julie.gauthier@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Gauthier Julie
+PDF généré pour Gauthier Julie
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Gauthier_Julie.pdf (1792 octets)
+
+Traitement de l'élève: Hall Victoria (ID: 53, Email: victoria.hall@email.com)
+  - Essai avec l'ID de l'élève (53)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 17.00, Devoir: 16.00, Composition: 15.00
+    - Note 2: Matière: Science2, Classe: 17.00, Devoir: 16.00, Composition: 15.00
+PDF généré pour Hall Victoria
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Hall_Victoria.pdf (1936 octets)
+
+Traitement de l'élève: Hernandez Isabella (ID: 35, Email: isabella.hernandez@email.com)
+  - Essai avec l'ID de l'élève (35)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 16.00, Devoir: 17.00, Composition: 15.00
+    - Note 2: Matière: Science2, Classe: 16.00, Devoir: 17.00, Composition: 15.00
+PDF généré pour Hernandez Isabella
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Hernandez_Isabella.pdf (1940 octets)
+
+Traitement de l'élève: Johnson Emma (ID: 26, Email: emma.johnson@email.com)
+  - Essai avec l'ID de l'élève (26)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+    - Note 2: Matière: Science2, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+PDF généré pour Johnson Emma
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Johnson_Emma.pdf (1935 octets)
+
+Traitement de l'élève: Jones Noah (ID: 29, Email: noah.jones@email.com)
+  - Essai avec l'ID de l'élève (29)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 17.00, Devoir: 18.00, Composition: 16.00
+    - Note 2: Matière: Science2, Classe: 17.00, Devoir: 18.00, Composition: 16.00
+PDF généré pour Jones Noah
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Jones_Noah.pdf (1933 octets)
+
+Traitement de l'élève: Lambert Clara (ID: 10, Email: clara.lambert@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Lambert Clara
+PDF généré pour Lambert Clara
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Lambert_Clara.pdf (1790 octets)
+
+Traitement de l'élève: Martin Julien (ID: 2, Email: julien.martin@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Martin Julien
+PDF généré pour Martin Julien
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Martin_Julien.pdf (1789 octets)
+
+Traitement de l'élève: Martin Matthew (ID: 44, Email: matthew.martin@email.com)
+  - Essai avec l'ID de l'élève (44)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 13.00, Devoir: 14.00, Composition: 12.00
+    - Note 2: Matière: Science2, Classe: 13.00, Devoir: 14.00, Composition: 12.00
+PDF généré pour Martin Matthew
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Martin_Matthew.pdf (1935 octets)
+
+Traitement de l'élève: Morel Laura (ID: 5, Email: laura.morel@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Morel Laura
+PDF généré pour Morel Laura
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Morel_Laura.pdf (1790 octets)
+
+Traitement de l'élève: Muller Antoine (ID: 12, Email: antoine.muller@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Muller Antoine
+PDF généré pour Muller Antoine
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Muller_Antoine.pdf (1792 octets)
+
+Traitement de l'élève: Pelletier Maxime (ID: 16, Email: maxime.pelletier@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Pelletier Maxime
+PDF généré pour Pelletier Maxime
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Pelletier_Maxime.pdf (1794 octets)
+
+Traitement de l'élève: Perrin Adrien (ID: 20, Email: adrien.perrin@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Perrin Adrien
+PDF généré pour Perrin Adrien
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Perrin_Adrien.pdf (1790 octets)
+
+Traitement de l'élève: Picard Sarah (ID: 23, Email: sarah.picard@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Picard Sarah
+PDF généré pour Picard Sarah
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Picard_Sarah.pdf (1791 octets)
+
+Traitement de l'élève: Taylor Evelyn (ID: 41, Email: evelyn.taylor@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Taylor Evelyn
+PDF généré pour Taylor Evelyn
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Taylor_Evelyn.pdf (1790 octets)
+
+Traitement de l'élève: Thompson Chloe (ID: 47, Email: chloe.thompson@email.com)
+  - Essai avec l'ID de l'élève (47)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+    - Note 2: Matière: Science2, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+PDF généré pour Thompson Chloe
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Thompson_Chloe.pdf (1935 octets)
+
+Traitement de l'élève: Wilson Logan (ID: 38, Email: logan.wilson@email.com)
+  - Essai avec l'ID de l'élève (38)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math2, Classe: 18.00, Devoir: 19.00, Composition: 17.00
+    - Note 2: Matière: Science2, Classe: 18.00, Devoir: 19.00, Composition: 17.00
+PDF généré pour Wilson Logan
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_B_Trimestre1/Wilson_Logan.pdf (1937 octets)
+
+--- RÉSUMÉ DE LA GÉNÉRATION ---
+Nombre total d'élèves: 19
+Nombre de PDF générés: 19
+Élèves sans notes: Fournier Lucas, Gauthier Julie, Lambert Clara, Martin Julien, Morel Laura, Muller Antoine, Pelletier Maxime, Perrin Adrien, Picard Sarah, Taylor Evelyn
+Nombre de fichiers PDF générés: 19
+Fichiers trouvés dans le dossier: Clark_David.pdf, Davis_Lucas.pdf, Fournier_Lucas.pdf, Gauthier_Julie.pdf, Hall_Victoria.pdf, Hernandez_Isabella.pdf, Johnson_Emma.pdf, Jones_Noah.pdf, Lambert_Clara.pdf, Martin_Julien.pdf, Martin_Matthew.pdf, Morel_Laura.pdf, Muller_Antoine.pdf, Pelletier_Maxime.pdf, Perrin_Adrien.pdf, Picard_Sarah.pdf, Taylor_Evelyn.pdf, Thompson_Chloe.pdf, Wilson_Logan.pdf, debug.log
+ZipArchive existe: Oui
+Ajout au ZIP: Clark_David.pdf
+Ajout au ZIP: Davis_Lucas.pdf
+Ajout au ZIP: Fournier_Lucas.pdf
+Ajout au ZIP: Gauthier_Julie.pdf
+Ajout au ZIP: Hall_Victoria.pdf
+Ajout au ZIP: Hernandez_Isabella.pdf
+Ajout au ZIP: Johnson_Emma.pdf
+Ajout au ZIP: Jones_Noah.pdf
+Ajout au ZIP: Lambert_Clara.pdf
+Ajout au ZIP: Martin_Julien.pdf
+Ajout au ZIP: Martin_Matthew.pdf
+Ajout au ZIP: Morel_Laura.pdf
+Ajout au ZIP: Muller_Antoine.pdf
+Ajout au ZIP: Pelletier_Maxime.pdf
+Ajout au ZIP: Perrin_Adrien.pdf
+Ajout au ZIP: Picard_Sarah.pdf
+Ajout au ZIP: Taylor_Evelyn.pdf
+Ajout au ZIP: Thompson_Chloe.pdf
+Ajout au ZIP: Wilson_Logan.pdf
+ZIP créé avec succès: C:\WINDOWS\TEMP/bulletins_682f54d60c2b5/Classe_B_Trimestre1.zip (30612 octets)
+Avant readfile - Fichier existe: Oui
+Avant readfile - Taille: 30612 octets
+Fin du script - 2025-05-22 16:46:14
+Octets envoyés: 30612

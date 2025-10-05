@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importer des élèves</title>
+    <link rel="stylesheet" href="upload.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gestion Scolaire</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="enseignants.html">Enseignants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eleves.html">Élèves</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matiere.html">Matières</a></li>
+                    <li class="nav-item"><a class="nav-link" href="classe.html">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="upload.html">Insertion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inscription.html">inscription</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br><br><br><br><br>
+
+    <div class="container">
+        <h1>Importer la liste</h1>
+        <br>
+        <form id="uploadForm" method="post">
+            <input type="file" id="csvFile" accept=".csv" required>
+            <button type="submit">Téléverser et Insérer</button>
+        </form>
+        <br>
+        <div id="progressContainer" class="d-none">
+            <div class="progress">
+                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="upload.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

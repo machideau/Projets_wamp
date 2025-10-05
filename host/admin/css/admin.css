@@ -1,0 +1,92 @@
+/* Styles généraux */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: #343a40;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #fff;
+    padding: 1rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Header */
+.navbar {
+    padding: 1rem 2rem;
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Contenu principal */
+main {
+    margin-left: 250px;
+    padding: 2rem;
+}
+
+/* Cards */
+.stat-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tables */
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Page de connexion */
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.login-card {
+    width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Boutons d'action */
+.action-buttons .btn {
+    margin: 0 2px;
+}

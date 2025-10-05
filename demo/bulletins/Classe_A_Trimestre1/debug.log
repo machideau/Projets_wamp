@@ -1,0 +1,218 @@
+Début de génération - 2025-05-22 16:47:00
+Dossier classe: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1
+Dossier temporaire: C:\WINDOWS\TEMP/bulletins_682f550410570
+Classe: Classe A, Trimestre: 1
+Nombre d'élèves: 18
+Version PHP: 7.2.10
+Extensions chargées: Core, bcmath, calendar, ctype, date, filter, hash, iconv, json, SPL, pcre, readline, Reflection, session, standard, mysqlnd, tokenizer, zip, zlib, libxml, dom, PDO, bz2, SimpleXML, xml, wddx, xmlreader, xmlwriter, apache2handler, openssl, curl, com_dotnet, fileinfo, gd, gettext, gmp, intl, imap, ldap, mbstring, exif, mysqli, Phar, pdo_mysql, pdo_sqlite, soap, sockets, sqlite3, xmlrpc, xsl, Zend OPcache, xdebug
+Classe FPDF existe: Oui
+
+--- ANALYSE DE LA STRUCTURE DES DONNÉES ---
+Structure de la table notes:
+  - id: int(11) (KEY: PRI)
+  - eleve_id: int(11) (KEY: MUL)
+  - matiere_id: int(11) (KEY: MUL)
+  - note_classe: decimal(4,2)
+  - note_devoir: decimal(4,2)
+  - note_composition: decimal(4,2)
+  - trimestre: int(11)
+  - date_ajout: timestamp
+Nombre total d'enregistrements dans la table notes: 93
+Échantillon des données de notes:
+  - ID: 1, Élève ID: 22, Matière ID: 1, Trimestre: 1
+  - ID: 2, Élève ID: 19, Matière ID: 1, Trimestre: 3
+  - ID: 3, Élève ID: 15, Matière ID: 1, Trimestre: 1
+
+--- VÉRIFICATION DES CORRESPONDANCES ÉLÈVES-NOTES ---
+Élèves IDs trouvés dans la table notes: 4, 7, 9, 15, 19, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54
+Élèves IDs dans la classe actuelle: 19, 9, 28, 22, 4, 1, 37, 49, 43, 7, 15, 34, 31, 46, 25, 40, 55, 52
+Élèves IDs communs: 4, 7, 9, 15, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52
+Vérification si les emails sont utilisés comme ID dans la table notes:
+
+--- DÉBUT DE LA GÉNÉRATION DES BULLETINS ---
+Élèves IDs trouvés dans la table notes pour ce trimestre: 9, 15, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54
+
+Traitement de l'élève: Blanchard Manon (ID: 19, Email: manon.blanchard@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Blanchard Manon
+PDF généré pour Blanchard Manon
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Blanchard_Manon.pdf (1792 octets)
+
+Traitement de l'élève: Bonnet Nicolas (ID: 9, Email: nicolas.bonnet@email.com)
+  - Essai avec l'ID de l'élève (9)
+  - Notes trouvées avec ID: 1
+  - Notes trouvées: 1
+    - Note 1: Matière: Math1, Classe: 16.00, Devoir: 17.00, Composition: 16.00
+PDF généré pour Bonnet Nicolas
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Bonnet_Nicolas.pdf (1832 octets)
+
+Traitement de l'élève: Brown Olivia (ID: 28, Email: olivia.brown@email.com)
+  - Essai avec l'ID de l'élève (28)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 16.00, Devoir: 17.00, Composition: 15.00
+    - Note 2: Matière: Science1, Classe: 16.00, Devoir: 17.00, Composition: 15.00
+PDF généré pour Brown Olivia
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Brown_Olivia.pdf (1935 octets)
+
+Traitement de l'élève: Caron Quentin (ID: 22, Email: quentin.caron@email.com)
+  - Essai avec l'ID de l'élève (22)
+  - Notes trouvées avec ID: 1
+  - Notes trouvées: 1
+    - Note 1: Matière: Math1, Classe: 13.00, Devoir: 14.00, Composition: 12.00
+PDF généré pour Caron Quentin
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Caron_Quentin.pdf (1834 octets)
+
+Traitement de l'élève: Dubois Thomas (ID: 4, Email: thomas.dubois@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Dubois Thomas
+PDF généré pour Dubois Thomas
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Dubois_Thomas.pdf (1791 octets)
+
+Traitement de l'élève: Dupont Alice (ID: 1, Email: alice.dupont@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Dupont Alice
+PDF généré pour Dupont Alice
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Dupont_Alice.pdf (1790 octets)
+
+Traitement de l'élève: Gonzalez Amelia (ID: 37, Email: amelia.gonzalez@email.com)
+  - Essai avec l'ID de l'élève (37)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 13.00, Devoir: 14.00, Composition: 12.00
+    - Note 2: Matière: Science1, Classe: 13.00, Devoir: 14.00, Composition: 12.00
+PDF généré pour Gonzalez Amelia
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Gonzalez_Amelia.pdf (1939 octets)
+
+Traitement de l'élève: Harris Ella (ID: 49, Email: ella.harris@email.com)
+  - Essai avec l'ID de l'élève (49)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 17.00, Devoir: 16.00, Composition: 15.00
+    - Note 2: Matière: Science1, Classe: 17.00, Devoir: 16.00, Composition: 15.00
+PDF généré pour Harris Ella
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Harris_Ella.pdf (1934 octets)
+
+Traitement de l'élève: Jackson Lily (ID: 43, Email: lily.jackson@email.com)
+  - Essai avec l'ID de l'élève (43)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 14.00, Devoir: 13.00, Composition: 15.00
+    - Note 2: Matière: Science1, Classe: 14.00, Devoir: 13.00, Composition: 15.00
+PDF généré pour Jackson Lily
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Jackson_Lily.pdf (1936 octets)
+
+Traitement de l'élève: Lefevre Emma (ID: 7, Email: emma.lefevre@email.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève Lefevre Emma
+PDF généré pour Lefevre Emma
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Lefevre_Emma.pdf (1789 octets)
+
+Traitement de l'élève: Marchand Alice (ID: 15, Email: alice.marchand@email.com)
+  - Essai avec l'ID de l'élève (15)
+  - Notes trouvées avec ID: 1
+  - Notes trouvées: 1
+    - Note 1: Matière: Math1, Classe: 17.00, Devoir: 18.00, Composition: 16.00
+PDF généré pour Marchand Alice
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Marchand_Alice.pdf (1836 octets)
+
+Traitement de l'élève: Martinez Ethan (ID: 34, Email: ethan.martinez@email.com)
+  - Essai avec l'ID de l'élève (34)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 17.00, Devoir: 18.00, Composition: 16.00
+    - Note 2: Matière: Science1, Classe: 17.00, Devoir: 18.00, Composition: 16.00
+PDF généré pour Martinez Ethan
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Martinez_Ethan.pdf (1938 octets)
+
+Traitement de l'élève: Miller Sophia (ID: 31, Email: sophia.miller@email.com)
+  - Essai avec l'ID de l'élève (31)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+    - Note 2: Matière: Science1, Classe: 15.00, Devoir: 16.00, Composition: 14.00
+PDF généré pour Miller Sophia
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Miller_Sophia.pdf (1936 octets)
+
+Traitement de l'élève: Perez Samuel (ID: 46, Email: samuel.perez@email.com)
+  - Essai avec l'ID de l'élève (46)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 16.00, Devoir: 15.00, Composition: 14.00
+    - Note 2: Matière: Science1, Classe: 16.00, Devoir: 15.00, Composition: 14.00
+PDF généré pour Perez Samuel
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Perez_Samuel.pdf (1935 octets)
+
+Traitement de l'élève: Smith John (ID: 25, Email: john.smith@email.com)
+  - Essai avec l'ID de l'élève (25)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 14.00, Devoir: 15.00, Composition: 13.00
+    - Note 2: Matière: Science1, Classe: 14.00, Devoir: 15.00, Composition: 13.00
+PDF généré pour Smith John
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Smith_John.pdf (1935 octets)
+
+Traitement de l'élève: Thomas Elijah (ID: 40, Email: elijah.thomas@email.com)
+  - Essai avec l'ID de l'élève (40)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 18.00, Devoir: 19.00, Composition: 17.00
+    - Note 2: Matière: Science1, Classe: 18.00, Devoir: 19.00, Composition: 17.00
+PDF généré pour Thomas Elijah
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Thomas_Elijah.pdf (1937 octets)
+
+Traitement de l'élève: v gvg (ID: 55, Email: directeur@admin.com)
+  - Essai avec la méthode getNotesByEmail
+  - Notes trouvées avec getNotesByEmail: 0
+  - AUCUNE NOTE TROUVÉE pour cet élève
+Aucune note pour l'élève v gvg
+PDF généré pour v gvg
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/v_gvg.pdf (1785 octets)
+
+Traitement de l'élève: Walker Benjamin (ID: 52, Email: benjamin.walker@email.com)
+  - Essai avec l'ID de l'élève (52)
+  - Notes trouvées avec ID: 3
+  - Notes trouvées: 3
+    - Note 1: Matière: Math1, Classe: 15.00, Devoir: 14.00, Composition: 13.00
+    - Note 2: Matière: Science1, Classe: 15.00, Devoir: 14.00, Composition: 13.00
+PDF généré pour Walker Benjamin
+PDF créé: C:\wamp64\www\demo/bulletins/Classe_A_Trimestre1/Walker_Benjamin.pdf (1939 octets)
+
+--- RÉSUMÉ DE LA GÉNÉRATION ---
+Nombre total d'élèves: 18
+Nombre de PDF générés: 18
+Élèves sans notes: Blanchard Manon, Dubois Thomas, Dupont Alice, Lefevre Emma, v gvg
+Nombre de fichiers PDF générés: 18
+Fichiers trouvés dans le dossier: Blanchard_Manon.pdf, Bonnet_Nicolas.pdf, Brown_Olivia.pdf, Caron_Quentin.pdf, Dubois_Thomas.pdf, Dupont_Alice.pdf, Gonzalez_Amelia.pdf, Harris_Ella.pdf, Jackson_Lily.pdf, Lefevre_Emma.pdf, Marchand_Alice.pdf, Martinez_Ethan.pdf, Miller_Sophia.pdf, Perez_Samuel.pdf, Smith_John.pdf, Thomas_Elijah.pdf, Walker_Benjamin.pdf, debug.log, v_gvg.pdf
+ZipArchive existe: Oui
+Ajout au ZIP: Blanchard_Manon.pdf
+Ajout au ZIP: Bonnet_Nicolas.pdf
+Ajout au ZIP: Brown_Olivia.pdf
+Ajout au ZIP: Caron_Quentin.pdf
+Ajout au ZIP: Dubois_Thomas.pdf
+Ajout au ZIP: Dupont_Alice.pdf
+Ajout au ZIP: Gonzalez_Amelia.pdf
+Ajout au ZIP: Harris_Ella.pdf
+Ajout au ZIP: Jackson_Lily.pdf
+Ajout au ZIP: Lefevre_Emma.pdf
+Ajout au ZIP: Marchand_Alice.pdf
+Ajout au ZIP: Martinez_Ethan.pdf
+Ajout au ZIP: Miller_Sophia.pdf
+Ajout au ZIP: Perez_Samuel.pdf
+Ajout au ZIP: Smith_John.pdf
+Ajout au ZIP: Thomas_Elijah.pdf
+Ajout au ZIP: Walker_Benjamin.pdf
+Ajout au ZIP: v_gvg.pdf
+ZIP créé avec succès: C:\WINDOWS\TEMP/bulletins_682f550410570/Classe_A_Trimestre1.zip (29444 octets)
+Avant readfile - Fichier existe: Oui
+Avant readfile - Taille: 29444 octets
+Fin du script - 2025-05-22 16:47:00
+Octets envoyés: 29444

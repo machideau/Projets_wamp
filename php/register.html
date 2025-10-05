@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="uploads/icon/logo.png" type="image/x-icon">
+    <title>Register</title>
+    <link rel="stylesheet" href="lscss.css">
+</head>
+<body>
+    <div class="form-container">
+        <form method="post" action="php/register.php" enctype="multipart/form-data">
+            <h3>Enregistrement</h3>
+            <input type="text" class="box" name="nom" placeholder="Nom" >
+            <input type="text" class="box" name="prenom" placeholder="Prenom" >
+            <input type="email" class="box" name="email" placeholder="Email">
+            <div class="password-input">
+                <input type="password" class="box" name="password" placeholder="Mot de passe">
+                <i class="toggle-password">voir</i>
+            </div>
+            <div class="image-upload">
+                <input type="file" name="profile_image" accept="image/*" class="box">
+            </div>
+            <input type="submit" name="submit" value="valider" class="btn">
+            <p>Connectez vous ici 👉🏿<a href="login.html">Connexion</a></p> 
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

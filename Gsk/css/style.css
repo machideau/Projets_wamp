@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a.active, nav a:hover {
+    color: #50b3a2; /* Couleur d'accentuation */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #50b3a2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select {
+    width: calc(100% - 22px); /* Prend en compte le padding et la bordure */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important pour le calcul de la largeur */
+}
+
+button {
+    background: #50b3a2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #409182;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+td button {
+    margin-right: 5px;
+    padding: 5px 8px;
+    font-size: 0.9em;
+}
+
+.action-delete {
+    background-color: #e74c3c;
+}
+.action-delete:hover {
+    background-color: #c0392b;
+}
+.action-edit {
+    background-color: #3498db;
+}
+.action-edit:hover {
+    background-color: #2980b9;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Pour le dashboard */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stat-item {
+    background: #e9ecef;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: 200px; /* Largeur de base */
+}
+.stat-item h3 {
+    margin-top: 0;
+    color: #50b3a2;
+}
+.stat-item p {
+    font-size: 2em;
+    font-weight: bold;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Élèves</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- local links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .mod {
+            background-color: rgb(43, 207, 117);
+        }
+        .mod:hover {
+            background-color: rgb(125, 202, 125);
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gestion Scolaire</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="enseignants.html">Enseignants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eleves.html">Élèves</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matiere.html">Matières</a></li>
+                    <li class="nav-item"><a class="nav-link" href="classe.html">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="upload.html">Insertion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inscription.html">inscription</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Gestion des Élèves</h2>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEleveModal">
+                <i class="fas fa-plus"></i> Ajouter un élève
+            </button>
+        </div>
+
+        <!-- Sélecteur de classe -->
+        <div class="mb-4">
+            <form method="GET" class="form-inline">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <label for="classe_select" class="mr-2">Sélectionner une classe:</label>
+                    </div>
+                    <div class="col-auto">
+                        <select class="form-control" id="classe_select" name="classe_id" onchange="this.form.submit()">
+                            <option value="">Toutes les classes</option>
+                            <option value="">classe A</option>
+                            <option value="">classe B</option>
+                            <option value="">classe C</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Email</th>
+                    <th>Date de naissance</th>
+                    <th>Classe</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>sam</td>
+                    <td>hruf</td>
+                    <td>g dfy</td>
+                    <td>gygdhd</td>
+                    <td>ggdhj</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning btn-action" 
+                                onclick="editEleve()"
+                                title="Modifier">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger btn-action" 
+                                onclick="deleteEleve(1)"
+                                title="Supprimer">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal Ajout Élève -->
+    <div class="modal fade" id="addEleveModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ajouter un élève</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <form action="" method="POST">
+                    <div class="modal-body">
+                        <input type="hidden" name="action" value="add">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" name="nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="prenom" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="prenom" name="prenom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="date_naissance" class="form-label">Date de naissance</label>
+                            <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="classe_id" class="form-label">Classe</label>
+                            <select class="form-control" id="classe_id" name="classe_id" required>
+                                <option value="">Choisir une classe</option>
+                                    <option value="">classe A</option>
+                                    <option value="">classe B</option>
+                                    <option value="">classe C</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="submit" class="btn btn-primary">Ajouter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        function editEleve(id, nom, prenom, email, dateNaissance, classeId) {
+            if (confirm('Êtes-vous sûr de vouloir modifier cet élève ?')) {
+                alert("Bien modifiee");
+            }
+        }
+
+        function deleteEleve(id) {
+            if (confirm('Êtes-vous sûr de vouloir supprimer cet élève ?')) {
+                // window.location.href = `traitement_eleve.php?action=delete&id=${id}`;
+                alert("Bien supprime");
+            }
+        }
+    </script>
+
+</body>
+</html>

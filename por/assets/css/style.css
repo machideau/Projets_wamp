@@ -1,0 +1,101 @@
+/* assets/css/style.css */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #0000FF;
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00BFFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00FFFF;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Ajustements pour tablettes */
+    form {
+        padding: 15px;
+    }
+
+    .gallery {
+        gap: 10px;
+    }
+
+    .project {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustements pour mobiles */
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input, textarea, button {
+        font-size: 14px;
+    }
+
+    .project {
+        max-width: 100%;
+    }
+}

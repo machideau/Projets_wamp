@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple onclick</title>
+</head>
+<body>
+
+    <button id="monBouton">Cliquez moi !</button>
+
+    <script>
+        // Fonction qui sera exécutée lorsque le bouton est cliqué
+        function afficherMessage() {
+            alert("Le bouton a été cliqué !");
+        }
+
+        // Attacher la fonction à l'événement 'click' du bouton
+        document.getElementById('monBouton').onclick = afficherMessage;
+    </script>
+
+</body>
+</html>

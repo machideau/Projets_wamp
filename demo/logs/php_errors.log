@@ -1,0 +1,1668 @@
+[20-Mar-2025 09:03:55 UTC] Classe ID: 1
+[20-Mar-2025 09:03:55 UTC] Erreur dans getMatieresByClasse: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_scolaire.classe_matieres' doesn't exist
+[20-Mar-2025 09:03:55 UTC] Erreur dans get_matieres.php: Erreur lors de la récupération des matières
+[20-Mar-2025 09:03:55 UTC] Stack trace: #0 C:\wamp64\www\demo\views\get_matieres.php(30): Utilisateur->getMatieresByClasse(1)
+#1 {main}
+[20-Mar-2025 09:16:43 UTC] Classe ID: 1
+[20-Mar-2025 09:16:43 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:16:43 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:16:43 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:18:29 UTC] Classe ID: 2
+[20-Mar-2025 09:18:29 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:18:29 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:18:29 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:18:35 UTC] Classe ID: 3
+[20-Mar-2025 09:18:35 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+        )
+
+)
+
+[20-Mar-2025 09:18:35 UTC] Matières prises: Array
+(
+    [0] => Array
+        (
+            [matiere_id] => 7
+            [nom] => Test
+            [prenom] => Test
+        )
+
+    [1] => Array
+        (
+            [matiere_id] => 8
+            [nom] => Test
+            [prenom] => Test
+        )
+
+    [2] => Array
+        (
+            [matiere_id] => 9
+            [nom] => Test
+            [prenom] => Test
+        )
+
+)
+
+[20-Mar-2025 09:18:35 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+)
+
+[20-Mar-2025 09:18:49 UTC] Classe ID: 1
+[20-Mar-2025 09:18:50 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:18:50 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:18:50 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:22:24 UTC] Classe ID: 1
+[20-Mar-2025 09:22:24 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:22:24 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:22:24 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:28:34 UTC] Classe ID: 1
+[20-Mar-2025 09:28:34 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:28:34 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:28:34 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:28:40 UTC] Classe ID: 2
+[20-Mar-2025 09:28:40 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:28:40 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:28:40 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:28:58 UTC] Classe ID: 3
+[20-Mar-2025 09:28:58 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+        )
+
+)
+
+[20-Mar-2025 09:28:58 UTC] Matières prises: Array
+(
+    [0] => Array
+        (
+            [matiere_id] => 7
+            [nom] => Test
+            [prenom] => Test
+        )
+
+    [1] => Array
+        (
+            [matiere_id] => 8
+            [nom] => Test
+            [prenom] => Test
+        )
+
+    [2] => Array
+        (
+            [matiere_id] => 9
+            [nom] => Test
+            [prenom] => Test
+        )
+
+)
+
+[20-Mar-2025 09:28:58 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+            [deja_prise] => 1
+            [enseignant] => Test Test
+        )
+
+)
+
+[20-Mar-2025 09:33:06 UTC] Classe ID: 1
+[20-Mar-2025 09:33:06 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:33:06 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:33:06 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:33:12 UTC] Classe ID: 2
+[20-Mar-2025 09:33:12 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:33:12 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:33:12 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:54:07 UTC] Classe ID: 1
+[20-Mar-2025 09:54:07 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:54:07 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:54:07 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:54:09 UTC] Classe ID: 2
+[20-Mar-2025 09:54:09 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:54:09 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:54:09 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:54:15 UTC] Classe ID: 1
+[20-Mar-2025 09:54:15 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:54:15 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:54:15 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:54:17 UTC] Classe ID: 2
+[20-Mar-2025 09:54:17 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:54:18 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:54:18 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:54:27 UTC] Classe ID: 1
+[20-Mar-2025 09:54:27 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:54:27 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:54:27 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:58:05 UTC] Classe ID: 0
+[20-Mar-2025 09:58:05 UTC] Matières: Array
+(
+)
+
+[20-Mar-2025 09:58:05 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:58:05 UTC] Données formatées: Array
+(
+)
+
+[20-Mar-2025 09:58:09 UTC] Classe ID: 1
+[20-Mar-2025 09:58:09 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:58:09 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:58:09 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:59:41 UTC] Classe ID: 1
+[20-Mar-2025 09:59:41 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 09:59:41 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:59:41 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 09:59:43 UTC] Classe ID: 2
+[20-Mar-2025 09:59:43 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 09:59:43 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 09:59:43 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:06:30 UTC] Classe ID: 1
+[20-Mar-2025 10:06:30 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 10:06:30 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:06:30 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:06:42 UTC] Classe ID: 2
+[20-Mar-2025 10:06:42 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 10:06:42 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:06:42 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:06:47 UTC] Classe ID: 3
+[20-Mar-2025 10:06:47 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+        )
+
+)
+
+[20-Mar-2025 10:06:47 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:06:47 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:06:55 UTC] Classe ID: 2
+[20-Mar-2025 10:06:55 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 10:06:55 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:06:55 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:07:07 UTC] Classe ID: 3
+[20-Mar-2025 10:07:07 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+        )
+
+)
+
+[20-Mar-2025 10:07:07 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:07:07 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [nom_matiere] => Math3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [nom_matiere] => Science3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 9
+            [nom_matiere] => Histoire3
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:10:58 UTC] Classe ID: 1
+[20-Mar-2025 10:10:58 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 10:10:58 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:10:58 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:11:01 UTC] Classe ID: 2
+[20-Mar-2025 10:11:01 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 10:11:01 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:11:01 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:12:58 UTC] Classe ID: 0
+[20-Mar-2025 10:12:58 UTC] Matières: Array
+(
+)
+
+[20-Mar-2025 10:12:58 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:12:58 UTC] Données formatées: Array
+(
+)
+
+[20-Mar-2025 10:17:54 UTC] Classe ID: 1
+[20-Mar-2025 10:17:54 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 10:17:54 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:17:54 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:24:56 UTC] Classe ID: 1
+[20-Mar-2025 10:24:56 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 10:24:56 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:24:56 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:25:02 UTC] Classe ID: 2
+[20-Mar-2025 10:25:02 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+        )
+
+)
+
+[20-Mar-2025 10:25:02 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:25:02 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [nom_matiere] => Math2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [nom_matiere] => Science2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [nom_matiere] => Histoire2
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+
+[20-Mar-2025 10:25:06 UTC] Classe ID: 1
+[20-Mar-2025 10:25:06 UTC] Matières: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+        )
+
+)
+
+[20-Mar-2025 10:25:06 UTC] Matières prises: Array
+(
+)
+
+[20-Mar-2025 10:25:06 UTC] Données formatées: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nom_matiere] => Math1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nom_matiere] => Science1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [nom_matiere] => Histoire1
+            [deja_prise] => 
+            [enseignant] => 
+        )
+
+)
+

@@ -1,0 +1,19 @@
+demo/
+├── config/
+│   ├── config.php
+│   └── database.php
+├── controllers/
+│   ├── InscriptionController.php
+│   └── ConnexionController.php
+├── models/
+│   └── Utilisateur.php
+├── views/
+│   ├── inscription.php
+│   ├── connexion.php
+│   ├── header.php
+│   ├── footer.php
+│   └── get_matieres.php
+├── public/
+│   ├── css/
+│   └── js/
+└── index.php

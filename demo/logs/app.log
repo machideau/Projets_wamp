@@ -1,0 +1,77 @@
+[2025-03-20 00:41:18] [info] Tentative de connexion {"email":"machideau@gmail.com"}
+[2025-03-20 00:41:18] [warning] Échec de connexion {"email":"machideau@gmail.com"}
+[2025-03-20 00:41:54] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 00:41:55] [warning] Échec de connexion {"email":"admin@admin.com"}
+[2025-03-20 00:42:09] [info] Tentative de connexion {"email":"directeur@admin.com"}
+[2025-03-20 00:42:09] [warning] Échec de connexion {"email":"directeur@admin.com"}
+[2025-03-20 00:42:22] [info] Tentative de connexion {"email":"directeur@admin.com"}
+[2025-03-20 00:42:22] [info] Connexion réussie {"email":"directeur@admin.com","role":"directeur"}
+[2025-03-20 00:45:10] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 00:45:10] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 00:45:52] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 00:45:52] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 00:46:23] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 00:46:23] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 00:46:45] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 00:46:45] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 01:06:15] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 01:06:15] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 01:49:13] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 01:49:13] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 02:30:54] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 02:32:15] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 02:32:15] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 02:58:05] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 02:58:05] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 03:03:21] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 03:03:22] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 03:18:55] [info] Tentative de connexion {"email":"test5@test.com"}
+[2025-03-20 03:18:55] [info] Connexion réussie {"email":"test5@test.com","role":"enseignant"}
+[2025-03-20 03:19:51] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 03:19:51] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 08:37:51] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 08:37:51] [info] Connexion réussie {"email":"test@test.com","role":"enseignant"}
+[2025-03-20 08:38:19] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 08:38:19] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 08:43:02] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 08:43:02] [info] Connexion réussie {"email":"test@test.com","role":"enseignant"}
+[2025-03-20 09:17:26] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 09:17:26] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 09:38:04] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 09:38:04] [info] Connexion réussie {"email":"test@test.com","role":"enseignant"}
+[2025-03-20 09:38:39] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 09:38:39] [info] Connexion réussie {"email":"test@test.com","role":"enseignant"}
+[2025-03-20 09:40:45] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 09:40:45] [warning] Échec de connexion {"email":"test@test.com"}
+[2025-03-20 09:46:24] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 09:46:24] [warning] Échec de connexion {"email":"test@test.com","error":"Cet email n'existe pas dans notre base de donn\u00e9es."}
+[2025-03-20 11:03:50] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-03-20 11:03:50] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-03-20 11:05:04] [info] Tentative de connexion {"email":"test@test.com"}
+[2025-03-20 11:05:05] [info] Connexion réussie {"email":"test@test.com","role":"enseignant"}
+[2025-03-26 08:44:59] [info] Tentative de connexion {"email":"machideau@gmail.com"}
+[2025-03-26 08:44:59] [warning] Échec de connexion {"email":"machideau@gmail.com","error":"Cet email n'existe pas dans notre base de donn\u00e9es."}
+[2025-05-22 06:57:20] [info] Tentative de connexion {"email":"directeur@admin.com"}
+[2025-05-22 06:57:21] [warning] Échec de connexion {"email":"directeur@admin.com","error":"Mot de passe incorrect"}
+[2025-05-22 06:57:30] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-05-22 06:57:31] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-05-22 06:58:28] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-05-22 06:58:28] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-05-22 07:00:10] [info] Tentative de connexion {"email":"directeur@admin.com"}
+[2025-05-22 07:00:10] [warning] Échec de connexion {"email":"directeur@admin.com","error":"Mot de passe incorrect"}
+[2025-05-22 07:00:35] [info] Tentative de connexion {"email":"directeur@admin.com"}
+[2025-05-22 07:00:35] [warning] Échec de connexion {"email":"directeur@admin.com","error":"Mot de passe incorrect"}
+[2025-05-22 15:53:00] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-05-22 15:53:01] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-06-21 08:21:20] [info] Tentative de connexion {"email":"user@users.com"}
+[2025-06-21 08:21:20] [info] Connexion réussie {"email":"user@users.com","role":"enseignant"}
+[2025-06-21 08:21:50] [info] Tentative de connexion {"email":"user@users.com"}
+[2025-06-21 08:21:50] [info] Connexion réussie {"email":"user@users.com","role":"enseignant"}
+[2025-06-21 08:25:02] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-06-21 08:25:02] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-06-21 08:27:25] [info] Tentative de connexion {"email":"admin@admin.com"}
+[2025-06-21 08:27:25] [info] Connexion réussie {"email":"admin@admin.com","role":"admin"}
+[2025-06-21 08:28:48] [info] Tentative de connexion {"email":"user@users.com"}
+[2025-06-21 08:28:48] [info] Connexion réussie {"email":"user@users.com","role":"enseignant"}
+[2025-06-21 08:29:59] [info] Tentative de connexion {"email":"user@users.com"}
+[2025-06-21 08:29:59] [info] Connexion réussie {"email":"user@users.com","role":"enseignant"}
